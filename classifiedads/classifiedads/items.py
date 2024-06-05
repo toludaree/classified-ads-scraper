@@ -12,7 +12,7 @@ def description_in(d):
     return replace_tags(d, "\n")
 
 def clean(d):
-    return d[0].strip()
+    return d[0].replace("\xa0", "").replace("\u200e", "").strip()
 
 class ClassifiedadsItem(scrapy.Item):
     title = scrapy.Field(output_processor=Join())
