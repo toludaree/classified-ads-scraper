@@ -3,7 +3,7 @@
 # See documentation in:
 # https://docs.scrapy.org/en/latest/topics/items.html
 
-import scrapy
+from scrapy import Field, Item
 from itemloaders.processors import Join, MapCompose
 from w3lib.html import replace_tags
 
@@ -18,11 +18,20 @@ def clean(d):
                .replace("\u200e", "") \
                .replace("  ", " ")
 
-class ClassifiedadsItem(scrapy.Item):
-    title = scrapy.Field(output_processor=Join())
-    city = scrapy.Field(output_processor=Join())
-    phone = scrapy.Field(output_processor=Join())
-    zip = scrapy.Field(output_processor=clean)
-    description = scrapy.Field(input_processor=MapCompose(description_in),
+class ClassifiedadsItem(Item):
+    title = Field(output_processor=Join())
+    city = Field(output_processor=Join())
+    phone = Field(output_processor=Join())
+    zip = Field(output_processor=clean)
+    description = Field(input_processor=MapCompose(description_in),
                                output_processor=clean)
-    price = scrapy.Field(output_processor=Join())
+    price = Field(output_processor=Join())
+
+class AdSubCategoriesItem(Item):
+    name = Field()
+    id = Field()
+
+class AdCategoriesItem(Item):
+    name = Field()
+    id = Field()
+    subcategories = AdSubCategoriesItem()
