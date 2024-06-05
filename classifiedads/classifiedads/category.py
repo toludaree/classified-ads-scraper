@@ -1,16 +1,53 @@
 
 AD_CATEGORY_DICT = [
-    {"name": "Vehicles",       "id": "336"},
-    {"name": "Services",       "id": "462"},
+    {
+        "name": "Vehicles",
+        "id":   "336",
+        "subcategories": [
+            {"name": "Aircraft",                 "id": "73"},
+            {"name": "Automotive Items & Parts", "id": "627"},
+            {"name": "Boats & Watercraft",       "id": "327"},
+            {"name": "Cars",                     "id": "367"},
+            {"name": "Classic Cars",             "id": "412"},
+            {"name": "Commercial Trucks",        "id": "74"},
+            {"name": "Motorcycles",              "id": "470"},
+            {"name": "Off Road Vehicles",        "id": "425"},
+            {"name": "RV & Motorhomes",          "id": "482"},
+            {"name": "SUVs",                     "id": "396"},
+            {"name": "Trucks",                   "id": "340"},
+            {"name": "Utility & Work Trailers",  "id": "341"},
+            {"name": "Vans",                     "id": "400"},
+            {"name": "Vehicles Wanted",          "id": "414"},
+        ],
+    },
+    {
+        "name": "Services",
+        "id":   "462",
+        "subcategories": {
+            {"name": "Automotive Services",           "id": "467"},
+            {"name": "Beauty & Salon Services",       "id": "83"},
+            {"name": "Caregivers & Baby Sitting",     "id": "211"},
+            {"name": "Cleaning Services",             "id": "548"},
+            {"name": "Construction & Remodeling",     "id": "41"},
+            {"name": "Financial Services",            "id": "463"},
+            {"name": "Health & Wellness",             "id": "215"},
+            {"name": "Home Services",                 "id": "244"},
+            {"name": "Insurance",                     "id": "1172"},
+            {"name": "Lawn & Garden Services",        "id": "549"},
+            {"name": "Legal Services",                "id": "1159"},
+            {"name": "Marketing Services",            "id": "1157"},
+            {"name": "Moving & Storage",              "id": "1176"},
+            {"name": "Office Services",               "id": "1177"},
+            {"name": "Real Estate Services",          "id": "736"},
+            {"name": "Training & Education Services", "id": "85"},
+            {"name": "Web Design & Tech",             "id": "89"},
+            {"name": "Weddings & Photography",        "id": "477"},
+        },
+    },
     {"name": "For Rent",       "id": "468"},
     {"name": "Real Estate",    "id": "18"},
     {"name": "Community",      "id": "5"},
     {"name": "Pets",           "id": "17"},
     {"name": "Jobs",           "id": "15"},
     {"name": "Items for Sale", "id": "4"},
-    {"name": ""}
 ]
-
-AD_SUBCATEGORY_DICT = {
-
-}
