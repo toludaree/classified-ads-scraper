@@ -1,6 +1,6 @@
 
 from classifiedads.items import ClassifiedadsItem
-from scrapy.loader import ItemLoader
+from itemloaders import ItemLoader
 from scrapy.spiders import CrawlSpider, Rule
 from scrapy.linkextractors import LinkExtractor
 

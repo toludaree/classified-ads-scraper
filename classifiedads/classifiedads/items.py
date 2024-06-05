@@ -4,7 +4,7 @@
 # https://docs.scrapy.org/en/latest/topics/items.html
 
 import scrapy
-from scrapy.loader.processors import Join, MapCompose
+from itemloaders.processors import Join, MapCompose
 from w3lib.html import replace_tags
 
 
