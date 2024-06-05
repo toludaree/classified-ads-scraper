@@ -6,8 +6,25 @@
 
 # useful for handling different item types with a single interface
 from itemadapter import ItemAdapter
+from scrapy.exceptions import DropItem
 
 
-class ClassifiedadsPipeline:
+class ClassifiedadsRemoveDuplicatesPipeline:
+    def __init__(self):
+        self.titles_seen = set()
+    
     def process_item(self, item, spider):
-        return item
+        adapter = ItemAdapter(item)
+        if adapter["title"] in self.titles_seen:
+            raise DropItem(f"Duplicate ad detected: {item}")
+        else:
+            self.titles_seen.add((adapter["title"]))
+            return item
+        
+class ClassifiedadsRemoveNoTitlePipeline:
+    def process_item(self, item, spider):
+        adapter = ItemAdapter(item)
+        if not adapter.get("title"):
+            raise DropItem(f"Ad with no title detected: {item}")
+        else:
+            return item
