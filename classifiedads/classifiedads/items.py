@@ -27,11 +27,7 @@ class ClassifiedadsItem(Item):
                                output_processor=clean)
     price = Field(output_processor=Join())
 
-class AdSubCategoriesItem(Item):
-    name = Field()
-    url = Field()
-
 class AdCategoriesItem(Item):
     name = Field()
     url = Field()
-    subcategories = AdSubCategoriesItem()
+    subcategories = Field()
