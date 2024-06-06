@@ -29,11 +29,9 @@ class ClassifiedadsItem(Item):
 
 class AdSubCategoriesItem(Item):
     name = Field()
-    id = Field()
     url = Field()
 
 class AdCategoriesItem(Item):
     name = Field()
-    id = Field()
     url = Field()
     subcategories = AdSubCategoriesItem()
