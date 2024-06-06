@@ -1,6 +1,6 @@
 import scrapy
 from itemloaders import ItemLoader
-from classifiedads.items import AdCategoriesItem, AdSubCategoriesItem
+from classifiedads.items import AdCategoriesItem
 
 
 class AdCategoriesSpider(scrapy.Spider):
