@@ -6,6 +6,7 @@
 from scrapy import Field, Item
 from itemloaders.processors import Join, MapCompose
 from w3lib.html import replace_tags
+from lxml.etree import HTML
 
 
 def description_in(d):
@@ -18,8 +19,13 @@ def clean(d):
                .replace("\u200e", "") \
                .replace("  ", " ")
 
-def url_in(d):
+def complete_url(d):
     return "https:" + d
+
+def subcategories_out(d):
+    html = HTML(d)
+    return {"name": html.xpath("//text()")[0],
+            "url":  complete_url(html.xpath("//@href")[0])}
 
 
 class ClassifiedadsItem(Item):
@@ -34,6 +40,6 @@ class ClassifiedadsItem(Item):
 class AdCategoriesItem(Item):
     name = Field(input_processor=MapCompose(str.lstrip),
                  output_processor=Join())
-    url = Field(input_processor=MapCompose(url_in),
+    url = Field(input_processor=MapCompose(complete_url),
                 output_processor=Join())
-    subcategories = Field()
+    subcategories = Field(output_processor=MapCompose(subcategories_out))
