@@ -63,8 +63,8 @@ CONCURRENT_REQUESTS_PER_DOMAIN = 1
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-   "classifiedads.pipelines.ClassifiedadsRemoveNoTitlePipeline": 1,
-   "classifiedads.pipelines.ClassifiedadsRemoveDuplicatesPipeline": 2,
+   "classifiedads.pipelines.ClassifiedadsAdsRemoveNoTitlePipeline": 1,
+   "classifiedads.pipelines.ClassifiedadsAdsRemoveDuplicatesPipeline": 2,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
