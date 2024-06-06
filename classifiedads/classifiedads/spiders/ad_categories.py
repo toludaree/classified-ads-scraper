@@ -7,6 +7,11 @@ class AdCategoriesSpider(scrapy.Spider):
     name = "ad_categories"
     allowed_domains = ["classifiedads.com"]
     start_urls = ["https://classifiedads.com"]
+    
+    @classmethod
+    def update_settings(cls, settings):
+        super().update_settings(settings)
+        settings.set("ITEM_PIPELINES", {}, priority="spider")
 
     def parse(self, response):
         gallery = response.xpath("//div[contains(@class, 'cat0-')]")
