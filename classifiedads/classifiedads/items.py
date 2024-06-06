@@ -18,16 +18,22 @@ def clean(d):
                .replace("\u200e", "") \
                .replace("  ", " ")
 
+def url_in(d):
+    return "https:" + d
+
+
 class ClassifiedadsItem(Item):
     title = Field(output_processor=Join())
     city = Field(output_processor=Join())
     phone = Field(output_processor=Join())
-    zip = Field(output_processor=clean)
+    zip = Field(output_processor=clean)   # change to str.strip
     description = Field(input_processor=MapCompose(description_in),
                                output_processor=clean)
     price = Field(output_processor=Join())
 
 class AdCategoriesItem(Item):
-    name = Field()
-    url = Field()
+    name = Field(input_processor=MapCompose(str.lstrip),
+                 output_processor=Join())
+    url = Field(input_processor=MapCompose(url_in),
+                output_processor=Join())
     subcategories = Field()
