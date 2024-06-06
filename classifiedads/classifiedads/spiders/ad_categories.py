@@ -14,8 +14,8 @@ class AdCategoriesSpider(scrapy.Spider):
             item = ItemLoader(item=AdCategoriesItem(),
                               response=response, selector=category)
 
-            item.add_xpath("name", "./div/a/text()")
-            item.add_xpath("url", "./div/a/@href")
+            item.add_xpath("name", "./a/text()")
+            item.add_xpath("url", "./a/@href")
             item.add_xpath("subcategories", ".//div[@class='catsublinks']/a/text()")
             item.add_xpath("subcategories", ".//div[@class='catsublinks']/a/@href")
 
