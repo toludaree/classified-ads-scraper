@@ -1,549 +1,682 @@
 [
     {
         "name": "Vehicles",
-        "url": "https://www.classifiedads.com/search.php?keywords=&cid=336&lid=gx2332459&lname=Earth&from=c",
+        "id": "336",
+        "url": "https://www.classifiedads.com/search.php?keywords=&cid=336&lid=gx2339354&lname=Earth&from=c",
         "subcategories": [
             {
                 "name": "Aircraft",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=73&lid=gx2332459&lname=Earth&from=c"
+                "id": "73",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=73&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Automotive Items & Parts",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=627&lid=gx2332459&lname=Earth&from=c"
+                "id": "627",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=627&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Boats & Watercraft",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=327&lid=gx2332459&lname=Earth&from=c"
+                "id": "327",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=327&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Cars",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=367&lid=gx2332459&lname=Earth&from=c"
+                "id": "367",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=367&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Classic Cars",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=412&lid=gx2332459&lname=Earth&from=c"
+                "id": "412",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=412&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Commercial Trucks",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=74&lid=gx2332459&lname=Earth&from=c"
+                "id": "74",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=74&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Motorcycles",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=470&lid=gx2332459&lname=Earth&from=c"
+                "id": "470",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=470&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Off Road Vehicles",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=425&lid=gx2332459&lname=Earth&from=c"
+                "id": "425",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=425&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "RV & Motorhomes",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=482&lid=gx2332459&lname=Earth&from=c"
+                "id": "482",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=482&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "SUVs",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=396&lid=gx2332459&lname=Earth&from=c"
+                "id": "396",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=396&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Trucks",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=340&lid=gx2332459&lname=Earth&from=c"
+                "id": "340",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=340&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Utility & Work Trailers",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=341&lid=gx2332459&lname=Earth&from=c"
+                "id": "341",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=341&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Vans",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=400&lid=gx2332459&lname=Earth&from=c"
+                "id": "400",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=400&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Vehicles Wanted",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=414&lid=gx2332459&lname=Earth&from=c"
+                "id": "414",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=414&lid=gx2339354&lname=Earth&from=c"
             }
         ]
     },
     {
         "name": "Services",
-        "url": "https://www.classifiedads.com/search.php?keywords=&cid=462&lid=gx2332459&lname=Earth&from=c",
+        "id": "462",
+        "url": "https://www.classifiedads.com/search.php?keywords=&cid=462&lid=gx2339354&lname=Earth&from=c",
         "subcategories": [
             {
                 "name": "Automotive Services",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=467&lid=gx2332459&lname=Earth&from=c"
+                "id": "467",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=467&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Beauty & Salon Services",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=83&lid=gx2332459&lname=Earth&from=c"
+                "id": "83",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=83&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Caregivers & Baby Sitting",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=211&lid=gx2332459&lname=Earth&from=c"
+                "id": "211",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=211&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Cleaning Services",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=548&lid=gx2332459&lname=Earth&from=c"
+                "id": "548",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=548&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Construction & Remodeling",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=41&lid=gx2332459&lname=Earth&from=c"
+                "id": "41",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=41&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Financial Services",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=463&lid=gx2332459&lname=Earth&from=c"
+                "id": "463",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=463&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Health & Wellness",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=215&lid=gx2332459&lname=Earth&from=c"
+                "id": "215",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=215&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Home Services",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=244&lid=gx2332459&lname=Earth&from=c"
+                "id": "244",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=244&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Insurance",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=1172&lid=gx2332459&lname=Earth&from=c"
+                "id": "1172",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=1172&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Lawn & Garden Services",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=549&lid=gx2332459&lname=Earth&from=c"
+                "id": "549",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=549&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Legal Services",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=1159&lid=gx2332459&lname=Earth&from=c"
+                "id": "1159",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=1159&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Marketing Services",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=1157&lid=gx2332459&lname=Earth&from=c"
+                "id": "1157",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=1157&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Moving & Storage",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=1176&lid=gx2332459&lname=Earth&from=c"
+                "id": "1176",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=1176&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Office Services",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=1177&lid=gx2332459&lname=Earth&from=c"
+                "id": "1177",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=1177&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Real Estate Services",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=736&lid=gx2332459&lname=Earth&from=c"
+                "id": "736",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=736&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Training & Education Services",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=85&lid=gx2332459&lname=Earth&from=c"
+                "id": "85",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=85&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Web Design & Tech",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=89&lid=gx2332459&lname=Earth&from=c"
+                "id": "89",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=89&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Weddings & Photography",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=477&lid=gx2332459&lname=Earth&from=c"
+                "id": "477",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=477&lid=gx2339354&lname=Earth&from=c"
             }
         ]
     },
     {
         "name": "For Rent",
-        "url": "https://www.classifiedads.com/search.php?keywords=&cid=468&lid=gx2332459&lname=Earth&from=c",
+        "id": "468",
+        "url": "https://www.classifiedads.com/search.php?keywords=&cid=468&lid=gx2339354&lname=Earth&from=c",
         "subcategories": [
             {
                 "name": "Apartments",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=299&lid=gx2332459&lname=Earth&from=c"
+                "id": "299",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=299&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Commercial Lease",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=302&lid=gx2332459&lname=Earth&from=c"
+                "id": "302",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=302&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Condos For Rent",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=77&lid=gx2332459&lname=Earth&from=c"
+                "id": "77",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=77&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Houses For Rent",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=306&lid=gx2332459&lname=Earth&from=c"
+                "id": "306",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=306&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Housing Wanted",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=480&lid=gx2332459&lname=Earth&from=c"
+                "id": "480",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=480&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Mobile Homes For Rent",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=78&lid=gx2332459&lname=Earth&from=c"
+                "id": "78",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=78&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Roommates",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=76&lid=gx2332459&lname=Earth&from=c"
+                "id": "76",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=76&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Townhomes For Rent",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=79&lid=gx2332459&lname=Earth&from=c"
+                "id": "79",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=79&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Vacation Homes",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=309&lid=gx2332459&lname=Earth&from=c"
+                "id": "309",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=309&lid=gx2339354&lname=Earth&from=c"
             }
         ]
     },
     {
         "name": "Real Estate",
-        "url": "https://www.classifiedads.com/search.php?keywords=&cid=18&lid=gx2332459&lname=Earth&from=c",
+        "id": "18",
+        "url": "https://www.classifiedads.com/search.php?keywords=&cid=18&lid=gx2339354&lname=Earth&from=c",
         "subcategories": [
             {
                 "name": "Commercial Real Estate",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=301&lid=gx2332459&lname=Earth&from=c"
+                "id": "301",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=301&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Condos For Sale",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=312&lid=gx2332459&lname=Earth&from=c"
+                "id": "312",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=312&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Farms & Ranches",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=304&lid=gx2332459&lname=Earth&from=c"
+                "id": "304",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=304&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Homes For Sale",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=305&lid=gx2332459&lname=Earth&from=c"
+                "id": "305",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=305&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Land For Sale",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=740&lid=gx2332459&lname=Earth&from=c"
+                "id": "740",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=740&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Manufactured Homes",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=308&lid=gx2332459&lname=Earth&from=c"
+                "id": "308",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=308&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Other Real Estate",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=452&lid=gx2332459&lname=Earth&from=c"
+                "id": "452",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=452&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Real Estate Services",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=736&lid=gx2332459&lname=Earth&from=c"
+                "id": "736",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=736&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Time Shares",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=303&lid=gx2332459&lname=Earth&from=c"
+                "id": "303",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=303&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Townhomes For Sale",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=75&lid=gx2332459&lname=Earth&from=c"
+                "id": "75",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=75&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Vacation Homes",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=309&lid=gx2332459&lname=Earth&from=c"
+                "id": "309",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=309&lid=gx2339354&lname=Earth&from=c"
             }
         ]
     },
     {
         "name": "Community",
-        "url": "https://www.classifiedads.com/search.php?keywords=&cid=5&lid=gx2332459&lname=Earth&from=c",
+        "id": "5",
+        "url": "https://www.classifiedads.com/search.php?keywords=&cid=5&lid=gx2339354&lname=Earth&from=c",
         "subcategories": [
             {
                 "name": "Announcements",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=20&lid=gx2332459&lname=Earth&from=c"
+                "id": "20",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=20&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Carpool",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=82&lid=gx2332459&lname=Earth&from=c"
+                "id": "82",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=82&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Churches",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=22&lid=gx2332459&lname=Earth&from=c"
+                "id": "22",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=22&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Free Stuff",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=625&lid=gx2332459&lname=Earth&from=c"
+                "id": "625",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=625&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Garage Sales",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=21&lid=gx2332459&lname=Earth&from=c"
+                "id": "21",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=21&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "General Entertainment",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=192&lid=gx2332459&lname=Earth&from=c"
+                "id": "192",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=192&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Items Wanted",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=86&lid=gx2332459&lname=Earth&from=c"
+                "id": "86",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=86&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Lost & Found",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=80&lid=gx2332459&lname=Earth&from=c"
+                "id": "80",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=80&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Musicians & Bands",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=191&lid=gx2332459&lname=Earth&from=c"
+                "id": "191",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=191&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Volunteers",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=81&lid=gx2332459&lname=Earth&from=c"
+                "id": "81",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=81&lid=gx2339354&lname=Earth&from=c"
             }
         ]
     },
     {
         "name": "Pets",
-        "url": "https://www.classifiedads.com/search.php?keywords=&cid=17&lid=gx2332459&lname=Earth&from=c",
+        "id": "17",
+        "url": "https://www.classifiedads.com/search.php?keywords=&cid=17&lid=gx2339354&lname=Earth&from=c",
         "subcategories": [
             {
                 "name": "Birds",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=291&lid=gx2332459&lname=Earth&from=c"
+                "id": "291",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=291&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Cats",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=290&lid=gx2332459&lname=Earth&from=c"
+                "id": "290",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=290&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Dogs",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=289&lid=gx2332459&lname=Earth&from=c"
+                "id": "289",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=289&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Fish & Reptile Pets",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=292&lid=gx2332459&lname=Earth&from=c"
+                "id": "292",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=292&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Free Pets to Good Home",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=294&lid=gx2332459&lname=Earth&from=c"
+                "id": "294",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=294&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Horses",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=198&lid=gx2332459&lname=Earth&from=c"
+                "id": "198",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=198&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Livestock",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=200&lid=gx2332459&lname=Earth&from=c"
+                "id": "200",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=200&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Other Pets",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=295&lid=gx2332459&lname=Earth&from=c"
+                "id": "295",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=295&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Pet Services & Stores",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=296&lid=gx2332459&lname=Earth&from=c"
+                "id": "296",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=296&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Pet Supplies",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=489&lid=gx2332459&lname=Earth&from=c"
+                "id": "489",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=489&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Pets Lost & Found",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=1155&lid=gx2332459&lname=Earth&from=c"
+                "id": "1155",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=1155&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Pets Wanted",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=297&lid=gx2332459&lname=Earth&from=c"
+                "id": "297",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=297&lid=gx2339354&lname=Earth&from=c"
             }
         ]
     },
     {
         "name": "Jobs",
-        "url": "https://www.classifiedads.com/search.php?keywords=&cid=15&lid=gx2332459&lname=Earth&from=c",
+        "id": "15",
+        "url": "https://www.classifiedads.com/search.php?keywords=&cid=15&lid=gx2339354&lname=Earth&from=c",
         "subcategories": [
             {
                 "name": "Accounting & Bookkeeping Jobs",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=254&lid=gx2332459&lname=Earth&from=c"
+                "id": "254",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=254&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Business Opportunities",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=285&lid=gx2332459&lname=Earth&from=c"
+                "id": "285",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=285&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Cleaning Jobs",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=255&lid=gx2332459&lname=Earth&from=c"
+                "id": "255",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=255&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Construction Work",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=256&lid=gx2332459&lname=Earth&from=c"
+                "id": "256",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=256&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Creative Jobs",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=257&lid=gx2332459&lname=Earth&from=c"
+                "id": "257",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=257&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Educational Jobs",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=271&lid=gx2332459&lname=Earth&from=c"
+                "id": "271",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=271&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Financial & Real Estate Jobs",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=275&lid=gx2332459&lname=Earth&from=c"
+                "id": "275",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=275&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Internships",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=8&lid=gx2332459&lname=Earth&from=c"
+                "id": "8",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=8&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "IT Jobs",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=272&lid=gx2332459&lname=Earth&from=c"
+                "id": "272",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=272&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Labor Jobs",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=263&lid=gx2332459&lname=Earth&from=c"
+                "id": "263",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=263&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Legal Jobs",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=278&lid=gx2332459&lname=Earth&from=c"
+                "id": "278",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=278&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Management Jobs",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=265&lid=gx2332459&lname=Earth&from=c"
+                "id": "265",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=265&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Marketing Jobs",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=266&lid=gx2332459&lname=Earth&from=c"
+                "id": "266",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=266&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Medical Jobs",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=268&lid=gx2332459&lname=Earth&from=c"
+                "id": "268",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=268&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Office Jobs",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=270&lid=gx2332459&lname=Earth&from=c"
+                "id": "270",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=270&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Other Jobs",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=992&lid=gx2332459&lname=Earth&from=c"
+                "id": "992",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=992&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "People Seeking Jobs",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=84&lid=gx2332459&lname=Earth&from=c"
+                "id": "84",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=84&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Restaurant Jobs",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=276&lid=gx2332459&lname=Earth&from=c"
+                "id": "276",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=276&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Retail Jobs",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=88&lid=gx2332459&lname=Earth&from=c"
+                "id": "88",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=88&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Sales Jobs",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=273&lid=gx2332459&lname=Earth&from=c"
+                "id": "273",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=273&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Science & Engineering Jobs",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=274&lid=gx2332459&lname=Earth&from=c"
+                "id": "274",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=274&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Security & Safety Jobs",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=87&lid=gx2332459&lname=Earth&from=c"
+                "id": "87",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=87&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Skilled Trade Jobs",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=280&lid=gx2332459&lname=Earth&from=c"
+                "id": "280",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=280&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Transportation Jobs",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=277&lid=gx2332459&lname=Earth&from=c"
+                "id": "277",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=277&lid=gx2339354&lname=Earth&from=c"
             }
         ]
     },
     {
         "name": "Items for Sale",
-        "url": "https://www.classifiedads.com/search.php?keywords=&cid=4&lid=gx2332459&lname=Earth&from=c",
+        "id": "4",
+        "url": "https://www.classifiedads.com/search.php?keywords=&cid=4&lid=gx2339354&lname=Earth&from=c",
         "subcategories": [
             {
                 "name": "Appliances",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=24&lid=gx2332459&lname=Earth&from=c"
+                "id": "24",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=24&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Art & Crafts",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=2&lid=gx2332459&lname=Earth&from=c"
+                "id": "2",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=2&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Automotive Items & Parts",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=627&lid=gx2332459&lname=Earth&from=c"
+                "id": "627",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=627&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Bicycles",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=220&lid=gx2332459&lname=Earth&from=c"
+                "id": "220",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=220&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Books & Magazines",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=3&lid=gx2332459&lname=Earth&from=c"
+                "id": "3",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=3&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Cell Phones",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=7&lid=gx2332459&lname=Earth&from=c"
+                "id": "7",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=7&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Clothing & Apparel",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=6&lid=gx2332459&lname=Earth&from=c"
+                "id": "6",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=6&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Collectibles",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=1&lid=gx2332459&lname=Earth&from=c"
+                "id": "1",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=1&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Computers & Electronics",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=9&lid=gx2332459&lname=Earth&from=c"
+                "id": "9",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=9&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Farm & Ranch",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=10&lid=gx2332459&lname=Earth&from=c"
+                "id": "10",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=10&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Games",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=218&lid=gx2332459&lname=Earth&from=c"
+                "id": "218",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=218&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Health & Beauty Items",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=11&lid=gx2332459&lname=Earth&from=c"
+                "id": "11",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=11&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Heavy Equipment",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=195&lid=gx2332459&lname=Earth&from=c"
+                "id": "195",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=195&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Hobbies",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=12&lid=gx2332459&lname=Earth&from=c"
+                "id": "12",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=12&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Household & Furniture",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=13&lid=gx2332459&lname=Earth&from=c"
+                "id": "13",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=13&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Jewelry",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=14&lid=gx2332459&lname=Earth&from=c"
+                "id": "14",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=14&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Kids Stuff",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=493&lid=gx2332459&lname=Earth&from=c"
+                "id": "493",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=493&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Lawn & Garden",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=238&lid=gx2332459&lname=Earth&from=c"
+                "id": "238",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=238&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Mattresses",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=25&lid=gx2332459&lname=Earth&from=c"
+                "id": "25",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=25&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Miscellaneous Items",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=451&lid=gx2332459&lname=Earth&from=c"
+                "id": "451",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=451&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Movies & DVDs",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=1095&lid=gx2332459&lname=Earth&from=c"
+                "id": "1095",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=1095&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Music & CDs",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=190&lid=gx2332459&lname=Earth&from=c"
+                "id": "190",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=190&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Musical Instruments",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=189&lid=gx2332459&lname=Earth&from=c"
+                "id": "189",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=189&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Office & Business",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=16&lid=gx2332459&lname=Earth&from=c"
+                "id": "16",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=16&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Sports Equipment",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=19&lid=gx2332459&lname=Earth&from=c"
+                "id": "19",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=19&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Tickets",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=23&lid=gx2332459&lname=Earth&from=c"
+                "id": "23",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=23&lid=gx2339354&lname=Earth&from=c"
             },
             {
                 "name": "Tools",
-                "url": "https://www.classifiedads.com/search.php?keywords=&cid=242&lid=gx2332459&lname=Earth&from=c"
+                "id": "242",
+                "url": "https://www.classifiedads.com/search.php?keywords=&cid=242&lid=gx2339354&lname=Earth&from=c"
             }
         ]
     }

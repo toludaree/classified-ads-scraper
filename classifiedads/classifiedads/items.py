@@ -22,10 +22,21 @@ def clean(d):
 def complete_url(d):
     return "https:" + d
 
+def get_id_from_url(d):
+    options = d.split('?')[1].split('&') # //www.classifiedads.com/search.php?keywords=&cid=470&lid=gx2339354&lname=Earth&from=c
+    id = options[1].split('=')[1]
+    return id
+
 def subcategories_out(d):
     html = HTML(d)
-    return {"name": html.xpath("//text()")[0],
-            "url":  complete_url(html.xpath("//@href")[0])}
+    name = html.xpath("//text()")[0]
+    url = html.xpath("//@href")[0]
+    return {"name": name,
+            "id": get_id_from_url(url),
+            "url":  complete_url(url)}
+
+def id_in(d):
+    return d.split()[0].split('-')[1]   # ex: input: "cat0-336 hide", output: "336"
 
 
 class ClassifiedadsItem(Item):
@@ -40,7 +51,8 @@ class ClassifiedadsItem(Item):
 class AdCategoriesItem(Item):
     name = Field(input_processor=MapCompose(str.lstrip),
                  output_processor=Join())
-    id = Field()
+    id = Field(input_processor=MapCompose(id_in),
+               output_processor=Join())
     url = Field(input_processor=MapCompose(complete_url),
                 output_processor=Join())
     subcategories = Field(output_processor=MapCompose(subcategories_out))
