@@ -40,6 +40,7 @@ class ClassifiedadsItem(Item):
 class AdCategoriesItem(Item):
     name = Field(input_processor=MapCompose(str.lstrip),
                  output_processor=Join())
+    id = Field()
     url = Field(input_processor=MapCompose(complete_url),
                 output_processor=Join())
     subcategories = Field(output_processor=MapCompose(subcategories_out))
