@@ -1,15 +1,32 @@
 import json
 
 
-# def list_only_category():
-#     with open("../categories.json") as f:
-#         categories = json.load(f)
-    
-#     length = 21
-#     title_name = "Categories"
-#     title = title_name + "\n" + "="*(len(title_name) + 1) + "\n"
+def list_only_category():
+    categories = get_categories()
+    id_and_name = parse_categories(categories)
 
-#     table_header = ...
+    length = 21
+
+    headers = [get_general_header("Categories"),
+               get_table_header(length)]
+    # general_header = get_general_header("Categories")
+    # table_header = get_table_header(length)
+    table_rows = get_table_rows(id_and_name, length)
+    headers.extend(table_rows)
+
+    return "\n".join(headers)
+
+
+def get_categories() -> list[dict]:
+    with open("../../categories.json") as f:
+        categories = json.load(f)
+        return categories
+    
+def parse_categories(cs:list[dict]) -> list[tuple]:
+    return list(map(parse_category, cs))
+
+def parse_category(c:dict) -> tuple:
+    return (c["id"], c["name"])
 
 def get_general_header(name:str) -> str:
     rule = "="*(len(name) + 1)
@@ -26,15 +43,13 @@ def get_table_header(row_length:int) -> str:
     rule = "-"*row_length
     return header + "\n" + rule
 
-def get_table_row(id:str, name:str, row_length:int) -> str:
-    content = id.ljust(3) + " | " + name
+def get_table_rows(val:list[tuple], length:int) -> list[str]:
+    return list(map(lambda val: get_table_row(val, length), val))
+
+def get_table_row(val:tuple, row_length:int) -> str:
+    content = val[0].ljust(3) + " | " + val[1]
     return content.ljust(row_length)
 
-
-# def len_name(d):
-#     return (len(d["name"]),
-#         [len(s["name"]) for s in d["subcategories"])
-# # """
 
 """
 Categories
