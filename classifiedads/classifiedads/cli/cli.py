@@ -1,12 +1,32 @@
 import json
 
 
-ROW_LENGTH = 21
+ROW_LENGTH = 22
 
 
 def list_all():
     categories = get_categories()
-    categories_parsed = ...
+    categories_parsed = parse(categories)  # why am I even parsing?
+
+    title = get_title("All")
+    subcategories = get_all_subcategories(categories_parsed)
+
+    return "\n\n".join([title] + subcategories)
+
+# list(tuple(name, id, list(tuple(name, id)))) -> list(sections)
+# get all subcategory sections in a list
+def get_all_subcategories(ls):
+    return list(map(get_subcategory, ls))
+
+# tuple(name, id, list(tuple(name, id)))
+# get each subcategory section
+def get_subcategory(l):
+    category_header = get_category_header(l[0], l[1])
+    table_header = get_table_header()
+
+    table_rows = get_table_rows(l[2])
+
+    return "\n".join([category_header, table_header] + table_rows)
 
 def list_only_category() -> str:
     categories = get_categories()
@@ -43,14 +63,15 @@ def get_title(name:str) -> str:
     ruler = "="*(len(name) + 1)
     return name + "\n" + ruler
 
-def get_category_header(name:str, row_length:int) -> str:
-    rule = "-"*(len(name) + 1)
-    return (name.ljust(row_length) +
+def get_category_header(id:str, name:str) -> str:
+    id_and_name = f"({id}) {name}".ljust(ROW_LENGTH)
+    rule = "."*(len(id_and_name) + 1)
+    return (id_and_name.ljust(ROW_LENGTH) +
             "\n" +
-            rule.ljust(row_length))
+            rule.ljust(ROW_LENGTH))
 
 def get_table_header() -> str:
-    column_names = (" ID" + " | " + "Name").ljust(ROW_LENGTH)
+    column_names = ("  ID" + " | " + "Name").ljust(ROW_LENGTH)
     ruler = "-"*ROW_LENGTH
     header = column_names + "\n" + ruler
     return header
@@ -59,8 +80,48 @@ def get_table_rows(val:list[tuple]) -> list[str]:
     return list(map(get_table_row, val))
 
 def get_table_row(val:tuple) -> str:
-    content = val[0].ljust(3) + " | " + val[1]
-    return content.ljust(ROW_LENGTH)
+    name = break_into_groups(val[1].split())
+    content = add_rule(name, val[0])
+    # content = val[0].ljust(3) + " | " + val[1]
+    return "\n".join(content)
+
+def break_into_groups(name:list[str]) -> list[str]:
+    groups = []
+
+    lengths = list(map(len, name))
+    # print(lengths)
+    while len(lengths) != 0:
+        # print(len(lengths))
+        cumsum = get_altered_cumsum(lengths)
+        # print(cumsum)
+        last = len(cumsum)
+        for i, val in enumerate(cumsum):
+            if val > 15:
+                last = i
+                break
+        # print(last)
+        groups.append(" ".join(name[:last]))
+        # print(" ".join(name[:last]))
+        # print(groups)
+        del lengths[:last]
+        del name[:last]
+
+    return groups
+
+def get_altered_cumsum(l):
+    # [10, 5, 3, 5] -> [10, 16, 20, 26]
+
+    cumsum = [sum(l[:i])+(i-1) for i in range(1, len(l)+1)]
+    return cumsum
+
+def add_rule(l, id) -> list[str]:
+    l[0] = id.rjust(4) + ' | ' + l[0]
+
+    for i in range(1, len(l)):
+        l[i] = "     | " + l[i]
+
+    return l
+
 
 
 """
