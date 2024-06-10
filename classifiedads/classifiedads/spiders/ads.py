@@ -1,4 +1,5 @@
 
+import json
 from classifiedads.items import ClassifiedadsItem
 from itemloaders import ItemLoader
 from scrapy.spiders import CrawlSpider, Rule
@@ -8,7 +9,12 @@ from scrapy.linkextractors import LinkExtractor
 class AdsSpider(CrawlSpider):
     def __init__(self, *a, **kw):
         super(AdsSpider, self).__init__(*a, **kw)
-        self.cid = kw.get("cid")
+        self.name = kw.get("name")
+
+        with open("categories.json") as f:   # big vulnerabilty
+            categories = json.load(f)
+        
+        self.cid = categories[self.name]
         self.start_urls = [f"https://www.classifiedads.com/search.php?keywords=&cid={self.cid}&lid=gx2339354&lname=Earth&from=c"]
     
     name = "ads"
