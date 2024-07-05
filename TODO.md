@@ -1,7 +1,7 @@
 # TODO
 
-- [ ] Allow only scraping of categories
-- [ ] Add fields
+- [x] Allow only scraping of categories
+- [x] Add fields
     - subcategories
     - ad created date
     - updated date
