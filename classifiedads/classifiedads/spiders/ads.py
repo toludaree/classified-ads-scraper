@@ -40,5 +40,10 @@ class AdsSpider(CrawlSpider):
         item.add_xpath("zip", "//div[span='Zip:']/span[@class='last']/text()")
         item.add_xpath("description", "//div[@class='description']")   # inner element issue, extracting the html element instead
         item.add_xpath("price", "//div[span='Price:']/span[@class='last']/strong/text()")
+        item.add_xpath("created_date", "//table[@class='listing-properties']//tr[1]/td[2]/text()")
+        item.add_xpath("updated_date", "//table[@class='listing-properties']//tr[2]/td[2]/text()")
+        item.add_xpath("expires_date", "//table[@class='listing-properties']//tr[3]/td[2]/text()")
+        item.add_xpath("views", "//table[@class='listing-properties']//tr[4]/td[2]/text()")
+        item.add_xpath("subcategory", "//div[@class='cat1trig']/span[@class='cat1s']/text()")
 
         yield item.load_item()

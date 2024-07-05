@@ -12,6 +12,9 @@ from lxml.etree import HTML
 def description_in(d):
     return replace_tags(d, "\n")
 
+def views_in(d):
+    return d.split(" ")[0]
+
 def clean(d):
     return d[0].strip() \
                .replace("’", "'") \
@@ -40,13 +43,19 @@ def id_in(d):
 
 
 class ClassifiedadsItem(Item):
-    title = Field(output_processor=Join())
-    city = Field(output_processor=Join())
+    title = Field(output_processor=clean)
+    city = Field(output_processor=clean)
     phone = Field(output_processor=Join())
     zip = Field(output_processor=clean)   # change to str.strip
     description = Field(input_processor=MapCompose(description_in),
                                output_processor=clean)
     price = Field(output_processor=Join())
+    created_date = Field(output_processor=Join())
+    updated_date = Field(output_processor=Join())
+    expires_date = Field(output_processor=Join())
+    views = Field(input_processor=MapCompose(views_in),
+                  output_processor=Join())
+    subcategory = Field(output_processor=Join())
 
 class AdCategoriesItem(Item):
     name = Field(input_processor=MapCompose(str.lstrip),
